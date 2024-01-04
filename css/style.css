@@ -1,8 +1,9 @@
 
 /* Table of Contents
     1. Global Styles
-    2. Attribution Styles
-    3. Mobile Styles (media queries)
+    2. QR Code Styles
+    3. Attribution Styles
+    4. Mobile Styles (media queries)
 */
 
 :root {
@@ -22,6 +23,40 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
+/* 2. QR Code Styles */
+
+.qr {
+    top: 16vh;
+    height: calc(0.35*1440px);
+    width: calc(0.25*1440px);
+    display: grid;
+    position:absolute;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.qr img#code {
+    object-fit: contain;
+    object-position: center;
+    width: 360px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.qr h2 {
+    font-weight: 700;
+    padding: 10px 10px 0px 10px;
+    color: var(--dark-blue);
+}
+
+.qr p {
+    padding: 0px 10px 10px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--gray-blue);
+}
+
     /* Background, Position */
 
     /* Typography 
@@ -29,14 +64,14 @@ body {
         font-weight: 400, or 700;
     */
 
-/* 2. Attribution Styles */
+/* 3. Attribution Styles */
 
 .attribution {
     position: absolute;
     bottom: 1vh;
 }
 
-/* 3. Mobile Styles */
+/* 4. Mobile Styles */
 
 @media (max-width: 375px){
     /*add mobile style here*/
