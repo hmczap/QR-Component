@@ -70,5 +70,22 @@ body {
     /* 4. Mobile Styles @375px */
 
 @media only screen and (max-width: 375px){
-    
+    .qr {
+        top: 10vh;
+        width: calc(0.9*375px);
+        height: calc(0.8*667px);
+    }
+
+    .qr img#code{
+        width: 336px;
+    }
+
+    .qr h2 {
+        padding: 0px 15px;
+        font-size: 24px;
+    }
+
+    .qr p {
+        font-size: 17px;
+    }
 }
