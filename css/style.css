@@ -5,23 +5,36 @@
     3. Mobile Styles (media queries)
 */
 
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --gray-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
 /* 1. Global Styles */
 
-    /* Background, Position 
-        - White: hsl(0, 0%, 100%)
-        - Light gray: hsl(212, 45%, 89%)
-        - Grayish blue: hsl(220, 15%, 55%)
-        - Dark blue: hsl(218, 44%, 22%)
-    */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-gray);
+    font-family: 'Outfit', sans-serif;
+}
+
+    /* Background, Position */
 
     /* Typography 
-        font-family: 'Outfit', sans-serif;
         font-size: 15px;
         font-weight: 400, or 700;
     */
 
 /* 2. Attribution Styles */
 
+.attribution {
+    position: absolute;
+    bottom: 1vh;
+}
 
 /* 3. Mobile Styles */
 
