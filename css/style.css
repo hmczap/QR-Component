@@ -21,6 +21,7 @@ body {
     justify-content: center;
     background-color: var(--light-gray);
     font-family: 'Outfit', sans-serif;
+    margin: 0px;
 }
 
     /* 2. QR Code Styles */
@@ -71,21 +72,21 @@ body {
 
 @media only screen and (max-width: 375px){
     .qr {
-        top: 10vh;
-        width: calc(0.9*375px);
-        height: calc(0.8*667px);
+        top: 9.5vh;
+        width: calc(0.75*375px);
+        height: calc(0.7*667px);
     }
 
     .qr img#code{
-        width: 336px;
+        width: 281px;
     }
 
     .qr h2 {
         padding: 0px 15px;
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .qr p {
-        font-size: 17px;
+        font-size: 15px;
     }
 }
