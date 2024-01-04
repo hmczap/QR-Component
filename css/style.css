@@ -1,0 +1,30 @@
+
+/* Table of Contents
+    1. Global Styles
+    2. Attribution Styles
+    3. Mobile Styles (media queries)
+*/
+
+/* 1. Global Styles */
+
+    /* Background, Position 
+        - White: hsl(0, 0%, 100%)
+        - Light gray: hsl(212, 45%, 89%)
+        - Grayish blue: hsl(220, 15%, 55%)
+        - Dark blue: hsl(218, 44%, 22%)
+    */
+
+    /* Typography 
+        font-family: 'Outfit', sans-serif;
+        font-size: 15px;
+        font-weight: 400, or 700;
+    */
+
+/* 2. Attribution Styles */
+
+
+/* 3. Mobile Styles */
+
+@media (max-width: 375px){
+    /*add mobile style here*/
+}
