@@ -27,7 +27,7 @@ body {
 
 .qr {
     top: 16vh;
-    height: calc(0.35*1440px);
+    height: calc(0.37*1440px);
     width: calc(0.25*1440px);
     display: grid;
     position:absolute;
@@ -48,6 +48,7 @@ body {
     font-weight: 700;
     padding: 10px 10px 0px 10px;
     color: var(--dark-blue);
+    margin-top: 10px;
 }
 
 .qr p {
