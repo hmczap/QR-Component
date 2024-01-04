@@ -13,7 +13,7 @@
     --dark-blue: hsl(218, 44%, 22%);
 }
 
-/* 1. Global Styles */
+    /* 1. Global Styles */
 
 body {
     display: flex;
@@ -23,17 +23,18 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-/* 2. QR Code Styles */
+    /* 2. QR Code Styles */
 
 .qr {
-    top: 16vh;
-    height: calc(0.37*1440px);
+    top: 15vh;
+    height: calc(0.7*800px);
     width: calc(0.25*1440px);
     display: grid;
     position:absolute;
     background-color: var(--white);
     border-radius: 20px;
     padding: 15px;
+    text-align: center;
 }
 
 .qr img#code {
@@ -46,34 +47,28 @@ body {
 
 .qr h2 {
     font-weight: 700;
-    padding: 10px 10px 0px 10px;
+    font-size: 27px;
+    padding: 0px 20px;
     color: var(--dark-blue);
-    margin-top: 10px;
 }
 
 .qr p {
-    padding: 0px 10px 10px 10px;
-    font-size: 15px;
+    padding: 0px 21px;
+    font-size: 18px;
     font-weight: 400;
     color: var(--gray-blue);
+    margin-top: 0px;
 }
 
-    /* Background, Position */
-
-    /* Typography 
-        font-size: 15px;
-        font-weight: 400, or 700;
-    */
-
-/* 3. Attribution Styles */
+    /* 3. Attribution Styles */
 
 .attribution {
     position: absolute;
     bottom: 1vh;
 }
 
-/* 4. Mobile Styles */
+    /* 4. Mobile Styles @375px */
 
-@media (max-width: 375px){
-    /*add mobile style here*/
+@media only screen and (max-width: 375px){
+    
 }
