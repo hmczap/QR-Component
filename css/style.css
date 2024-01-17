@@ -38,7 +38,7 @@ body {
     text-align: center;
 }
 
-.qr img#code {
+.qr img.code {
     object-fit: contain;
     object-position: center;
     width: 360px;
@@ -66,6 +66,12 @@ body {
 .attribution {
     position: absolute;
     bottom: 1vh;
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
 
     /* 4. Mobile Styles @375px */
@@ -77,7 +83,7 @@ body {
         height: calc(0.7*667px);
     }
 
-    .qr img#code{
+    .qr img.code{
         width: 281px;
     }
 
